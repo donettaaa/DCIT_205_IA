@@ -1,0 +1,90 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 2;
+    padding: 2;
+    background-color:#B0578D;
+}
+
+header {
+    background-color:#B0578D;
+    color:whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+#header-logo {
+    max-width:20%; /* Adjust the max-width as needed */
+    height: auto;
+    margin-bottom: 10px; /* Add space below the logo */
+    border-radius: 5px; /* Optional: Add border radius for a rounded look */
+    /* Add more styles as needed */
+}
+nav {
+    background-color: #555;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+
+
+nav a {
+    text-decoration:bisque;
+    color: whitesmoke; /* Set the text color for the navigation links */
+    font-weight:bold;
+}
+/* Style for the navigation links on hover */
+nav a:hover {
+    color:crimson; /* Set a different color on hover */
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.mission-vision, .history, .faculty-expertise, .contact-info {
+    margin-bottom: 40px;
+}
+
+.faculty-member {
+    margin-top: 20px;
+}
+.faculty-expertise {
+    text-align: center;
+    padding: 20px;
+}
+
+.faculty-members {
+    display: flex;
+    justify-content: center;
+}
+
+.faculty-member {
+    margin: 0 10px; /* Adjust margin as needed to create space between faculty members */
+    text-align: center;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+
