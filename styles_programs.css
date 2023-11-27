@@ -1,0 +1,138 @@
+/* Global styles */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images7.alphacoders.com/133/1337527.png);
+    font-family: 'Agbalumo';
+}
+
+/* Header styles */
+header {
+    background-color:whitesmoke;
+    color:rgb(63, 41, 41);
+    text-align: center;
+    padding: 20px;
+    font-family:'Nosifer', sans-serif; ;
+    
+}
+#header-logo {
+    max-width:20%; /* Adjust the max-width as needed */
+    height: auto;
+    margin-bottom: 10px; /* Add space below the logo */
+    border-radius: 5px; /* Optional: Add border radius for a rounded look */
+    /* Add more styles as needed */
+}
+
+/* Course section styles */
+.course {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 50px;
+    transition: transform 0.3s ease;
+}
+
+.course:hover {
+    transform: scale(1.05);
+}
+
+.course img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position:static;
+    bottom: 0;
+}
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resource-section {
+    flex: 1;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: relative;
+}
+
+.resource-section a {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.resource-section a:hover {
+    color: #0056b3;
+}
+
+.sidebar {
+    width: 25%;
+    margin-left: 20px;
+}
+
+.widget {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.widget h3 {
+    color: #333;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.widget li {
+    margin-bottom: 10px;
+}
+  
+nav {
+    margin-top: 10px;
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 0.6cm;
+    
+}
+
+nav a {
+    text-decoration:bisque;
+    color: whitesmoke; /* Set the text color for the navigation links */
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* Style for the navigation links on hover */
+nav a:hover {
+    color:crimson; /* Set a different color on hover */
+}  
