@@ -1,0 +1,127 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color:#333;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQ4XaKoL-Sf4CXx3p2zaMXDOcb7xPDWlhGA&usqp=CAU);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color:whitesmoke;
+    color:crimson;
+    text-align: center;
+    padding: 1em;
+    font-size: 90%;
+    font-family: 'Nosifer', sans-serif;
+    color: crimson;
+}
+#header-logo {
+    max-width:20%; /* Adjust the max-width as needed */
+    height: auto;
+    margin-bottom: 10px; /* Add space below the logo */
+    border-radius: 5px; /* Optional: Add border radius for a rounded look */
+    /* Add more styles as needed */
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.resource-section {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: relative;
+}
+
+.resource-section a {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.resource-section a:hover {
+    color: #0056b3;
+}
+
+.sidebar {
+    width: 25%;
+    margin-left: 20px;
+}
+
+.widget {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.widget h3 {
+    color: #333;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.widget li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position:static;
+    bottom: 0;
+}
+
+nav {
+    margin-top: 10px;
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 0.6cm;
+    
+}
+
+nav a {
+    text-decoration:bisque;
+    color: whitesmoke; /* Set the text color for the navigation links */
+    font-weight:bold;
+}
+/* Style for the navigation links on hover */
+nav a:hover {
+    color:crimson; /* Set a different color on hover */
+}
+
