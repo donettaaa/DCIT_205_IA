@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(https://www.mromagazine.com/wp-content/uploads/2022/01/AdobeStock_358938433.jpg);
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    font-family: 'Nosifer', sans-serif;
+    background-image: url(https://www.mromagazine.com/wp-content/uploads/2022/01/AdobeStock_358938433.jpg);
+}
+
+h1 {
+    margin: 0;
+}
+
+.alumni-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 2em;
+    
+}
+
+.alumni-card {
+    flex: 1;
+    margin: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.alumni-card:hover {
+    transform: scale(1.05);
+}
+
+.alumni-card img {
+    width: 100%;
+    height: auto;
+}
+
+.alumni-info {
+    padding: 1em;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position:static;
+    width: 100%;
+    bottom: 0;
+}
+nav {
+    background-color: #555;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 21px;
+}
+
+
+
+nav a {
+    text-decoration:bisque;
+    color: whitesmoke; /* Set the text color for the navigation links */
+    font-weight:bold;
+}
+/* Style for the navigation links on hover */
+nav a:hover {
+    color:crimson; /* Set a different color on hover */
+}
