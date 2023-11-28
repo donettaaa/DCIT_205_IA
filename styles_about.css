@@ -6,10 +6,11 @@ body {
 }
 
 header {
-    background-color:#B0578D;
-    color:whitesmoke;
+    background-color:whitesmoke;
+    color:#B0578D;
     text-align: center;
-    padding: 20px;
+    font-family: 'Nosifer', sans-serif;
+    padding: 1%;
 }
 #header-logo {
     max-width:20%; /* Adjust the max-width as needed */
@@ -29,7 +30,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0 21px;
 }
 
 
@@ -45,16 +46,32 @@ nav a:hover {
 }
 
 h1 {
-    margin: 0;
+    margin: 2;
 }
 
 section {
     background-color: #fff;
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+    font-size: 120%;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+/* styles.css */
+
+/* Apply a maximum width to the image */
+img {
+    max-width: 50%; /* Ensures the image doesn't exceed its container's width */
+    height: auto; /* Maintains the image's aspect ratio */
+    display: block; /* Removes any extra space below the image */
+    margin: 0 auto; /* Centers the image within its container */
+    border: 1px solid #ddd; /* Optional: Adds a border around the image */
+    border-radius: 8px; /* Optional: Adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
 
 h2 {
     color: #333;
@@ -86,5 +103,11 @@ img {
     max-width: 30%;
     height: auto;
     border-radius: 5px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
 

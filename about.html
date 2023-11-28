@@ -4,16 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles_about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sevillana&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
     <title>Computer Science Department - About Us</title>
 </head>
 <body>
     <header>
         <img src="https://dcs.ug.edu.gh/img/comScience_logo.png" alt="header-logo" id= "header-logo">
         <h1>About Us</h1> 
-        <a href="index.html"></a>
-        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Header Image" id="header-image">
-            <div class="header-content">    
+
+        <style>
+            /* Style for the slideshow container */
+            .slideshow-container {
+                max-width: 300%;
+                position: relative;
+                margin: auto;
+            }
+    
+            /* Style for each slide image */
+            .mySlides {
+                display:flex;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+            }
+    
+            /* Style for the navigation dots */
+            .dot {
+                height: 40%;
+                width: 40%;
+                margin: 0 2px;
+                background-color: #bbb;
+                border-radius: 50%;
+                display: inline-block;
+                transition: background-color 0.6s ease;
+                cursor: pointer;
+            }
+    
+            .active {
+                background-color: #717171;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+            <!-- Slide images -->
+            <div class="mySlides">
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Slide 1">
+            </div>
+    
+            <div class="mySlides">
+                <img src="https://this.deakin.edu.au/wp-content/uploads/2019/06/coding-on-a-computer.jpg" alt="Slide 2">
+            </div>
+    
+            <div class="mySlides">
+                <img src="https://www.coffeyconsultingllc.com/wp-content/uploads/2016/11/people-talking-computers.jpg" alt="Slide 3">
+            </div>
+    
+            <div class="mySlides">
+                <img src="https://media.istockphoto.com/id/1079587192/photo/mid-adult-professor-teaching-a-lecture-from-desktop-pc-at-computer-lab.jpg?s=612x612&w=0&k=20&c=5uZGvFA6Sr7MNZl7Y-YwndvNR3E5Fex94ggHAdofTq4=" alt="Slide 4">
+            </div>
+    
+            <!-- Navigation dots -->
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    
+        <script>
+            // JavaScript for slideshow functionality
+            let slideIndex = 0;
+            showSlides();
+    
+            function showSlides() {
+                let i;
+                const slides = document.getElementsByClassName("mySlides");
+                const dots = document.getElementsByClassName("dot");
+    
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+    
+                slideIndex++;
+    
+                if (slideIndex > slides.length) {
+                    slideIndex = 1;
+                }
+    
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+    
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+    
+                setTimeout(showSlides, 3000); // Change slide every 2 seconds
+            }
+        </script>
+           
     </header>
+
     
 
     <!-- Navigation Section -->
@@ -21,7 +123,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="catalog.html">Catalog</a></li>
+            <li><a href="state of the art facilities.html">State of the art facilities</a></li>
             <li><a href="resources.html">Student Resources</a></li>
             <li><a href="programs.html">Programs and Courses</a></li>
             <li><a href="news.html">News and Events</a></li>
@@ -33,12 +135,20 @@
     </nav>
     
     <section class="mission-vision">
+    <section class="hero-section">
+        <div class="hero-content">
+            <h2>Welcome To The About Page!</h2>
+            <p>We are a community of passionate individuals dedicated to pushing the boundaries of technology and fostering innovation.</p>
+        </div>
+    </section>
+    <section class="mission-vision">
         <h2> Our Mission, Vision and Values</h2>
         <p>Our mission is to empower the next generation of computer scientists by promoting innovation, empowering and equipping them for the demands of the digital age.</p>
         <p>Our vision is to be the benchmark in computer science teaching and research worldwide, expanding the field's understanding and turning our graduates who are prepared to contribute positively to society.</p>
         <p>With our values, we uphold the highest standards of academic rigor, foster a culture of innovation and creativity, prioritize integrity and ethical conduct and promote a culture of lifelong learning.   </p>
     </section>
-
+    
+    </section>
     <section class="history">
         <h2>History</h2>
         <p>The University of Ghana's Computer Science Department was established in 2002 and has an extensive track record of innovation, expansion, and academic distinction. The department started out as a small group of committed faculty members who sought to give students a strong foundation in computer science. Driven by a love of learning and adventure, the department has developed new programs, advanced groundbreaking study projects, and won awards for its contributions to the field over the years. The computer science department is unwavering in its objective to equip students with the knowledge and skills necessary to prosper in the rapidly evolving field of technology.</p>
@@ -79,5 +189,8 @@
         <p>Phone: +233 24 805 6444</p>
         
     </section>
+    <footer>
+        <p>&copy; 2023 Computer Science Department. All rights reserved.</p>
+    </footer>
 </body>
 </html>

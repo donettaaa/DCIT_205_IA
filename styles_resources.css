@@ -5,6 +5,7 @@ body {
     background-color: #f8f8f8;
     color:#333;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQ4XaKoL-Sf4CXx3p2zaMXDOcb7xPDWlhGA&usqp=CAU);
+    background-size: 35%;
 }
 
 .container {
@@ -13,13 +14,13 @@ body {
 }
 
 header {
-    background-color:whitesmoke;
-    color:crimson;
+    color:#333;
+    background-color: brown;
     text-align: center;
-    padding: 1em;
-    font-size: 90%;
-    font-family: 'Nosifer', sans-serif;
-    color: crimson;
+    padding: 20px;
+    font-family:'Nosifer', sans-serif; 
+    
+    
 }
 #header-logo {
     max-width:20%; /* Adjust the max-width as needed */
@@ -30,7 +31,7 @@ header {
 }
 
 h1, h2, h3 {
-    color: #333;
+    color:#fff;
 }
 
 .main-content {
@@ -44,7 +45,8 @@ h1, h2, h3 {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    background-color:#333;
+    color:#fff;
     position: relative;
 }
 
@@ -68,7 +70,7 @@ h1, h2, h3 {
 }
 
 .widget {
-    background-color: #fff;
+    background-color:#333;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -76,7 +78,7 @@ h1, h2, h3 {
 }
 
 .widget h3 {
-    color: #333;
+    color:#fff;
 }
 
 .widget ul {
