@@ -3,6 +3,7 @@ body {
     margin: 2;
     padding: 2;
     background-color:#B0578D;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/920/609/236/dna-science-biology-chemistry-wallpaper-preview.jpg);
 }
 
 header {
@@ -10,15 +11,10 @@ header {
     color:#B0578D;
     text-align: center;
     font-family: 'Nosifer', sans-serif;
-    padding: 1%;
+    padding: 0cm;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/920/609/236/dna-science-biology-chemistry-wallpaper-preview.jpg);
 }
-#header-logo {
-    max-width:20%; /* Adjust the max-width as needed */
-    height: auto;
-    margin-bottom: 10px; /* Add space below the logo */
-    border-radius: 5px; /* Optional: Add border radius for a rounded look */
-    /* Add more styles as needed */
-}
+
 nav {
     background-color: #555;
 }
@@ -53,7 +49,7 @@ section {
     background-color: #fff;
     text-align: center;
     font-family: 'Comic Neue', cursive;
-    font-size: 120%;
+    font-size: 100%;
     margin: 20px;
     padding: 20px;
     border-radius: 10px;

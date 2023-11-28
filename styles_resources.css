@@ -17,18 +17,12 @@ header {
     color:#333;
     background-color: brown;
     text-align: center;
-    padding: 20px;
+    padding: 1cm;
     font-family:'Nosifer', sans-serif; 
     
     
 }
-#header-logo {
-    max-width:20%; /* Adjust the max-width as needed */
-    height: auto;
-    margin-bottom: 10px; /* Add space below the logo */
-    border-radius: 5px; /* Optional: Add border radius for a rounded look */
-    /* Add more styles as needed */
-}
+
 
 h1, h2, h3 {
     color:#fff;

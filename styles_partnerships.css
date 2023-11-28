@@ -1,0 +1,93 @@
+body {
+    font-family: 'Times New Roman', Arial, sans-serif;
+    font-size: 120%;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0y5ZV_mxO5J_XoFI9sa-mwDVuWxdkCJM8A&usqp=CAU);
+  }
+  
+  header {
+    background-color: #fff;
+    color: #333;
+    padding: 0.6cm;
+    text-align: center;
+    font-family: 'Nosifer', sans-serif;
+    font-size: 160%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf0y5ZV_mxO5J_XoFI9sa-mwDVuWxdkCJM8A&usqp=CAU);
+  }
+  
+  h1, h2 {
+    color: #333;
+    font-family: 'Goudy Bookletter 1911', serif;
+font-family: 'Oregano', cursive;
+font-size: 250%;
+
+  }
+  h3{
+    color: #fff;
+  }
+  h4{
+    text-align: center;
+    font-family: 'Times New Roman';
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display:inline-flexbox;
+    
+  }
+  
+  img {
+    border-radius: 50%;
+    max-width:70%;
+    height: auto;
+    margin-bottom: 1em;
+    margin-left: 3cm;
+    margin-right:3cm;
+  }
+  
+  p {
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align:center;
+    ;
+  }
+  nav {
+    background-color: #555;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 21px;
+}
+
+
+
+nav a {
+    text-decoration:bisque;
+    color: whitesmoke; /* Set the text color for the navigation links */
+    font-weight:bold;
+}
+/* Style for the navigation links on hover */
+nav a:hover {
+    color:crimson; /* Set a different color on hover */
+}
+  
