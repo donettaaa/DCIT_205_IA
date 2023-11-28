@@ -6,6 +6,7 @@ body {
     color:#333;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbQ4XaKoL-Sf4CXx3p2zaMXDOcb7xPDWlhGA&usqp=CAU);
     background-size: 35%;
+    font-family: 'poppins', sans-serif;
 }
 
 .container {
@@ -15,7 +16,7 @@ body {
 
 header {
     color:#333;
-    background-color: brown;
+    background-color:#333;
     text-align: center;
     padding: 1cm;
     font-family:'Nosifer', sans-serif; 
