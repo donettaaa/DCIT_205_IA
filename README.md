@@ -20,7 +20,7 @@ Welcome to the Computer Science Department website! This website provides inform
 ## Getting Started
 
 1. Clone the repository: `git clone https://github.com/donettaaa/DCIT_205_IA.git`
-2. Navigate to the project folder: `cd cs-department-website`
+2. Navigate to the project folder: `DCIT_205_IA`
 3. Open the `index.html` file in your web browser or use a local server to run the website.
 
 ## Usage
